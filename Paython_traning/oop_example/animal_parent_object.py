@@ -1,5 +1,4 @@
 
-
 class AnimalParentObject():
 
     def calculate_distance_at_parent(self, time, speed):
