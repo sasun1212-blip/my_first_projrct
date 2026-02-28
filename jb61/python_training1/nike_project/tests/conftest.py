@@ -2,7 +2,7 @@ import pytest
 from playwright.sync_api import sync_playwright
 
 
-@pytest.fixture(scope="session")
+@pytest.fixture(scope="function")
 def setup_playwright_nike():
     print (f"starting playwright")
     with sync_playwright() as playwright:
